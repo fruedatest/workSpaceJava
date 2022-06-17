@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		/*
+		 * APARTADO 1
+		 */
+
+		
+		
+		/*
+		 * APARTADO 2
+		 */
+		double number = -123;
+
+		if (number > 0) {
+			System.out.println("¡Es positivo!");
+		} else if (number < 0) {
+			System.out.println("¡Es negativo!");
+		} else {
+			System.out.println("¡Es cero, na de ná!");
+		}
+		
+		System.out.println((number > 0) ? "Es positivo!" : (number < 0) ? "Es negativo" : "Es cero, na de na!");
+
+	}
+}

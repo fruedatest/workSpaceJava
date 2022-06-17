@@ -1,0 +1,11 @@
+package object002;
+
+public class tarjetaBancaria {
+	private int numero;
+	private int expirationDate;
+	private String titular;
+	private String entidadEmisora;
+	
+	
+	
+}

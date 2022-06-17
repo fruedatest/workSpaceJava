@@ -1,0 +1,78 @@
+package mainPackage.main;
+
+import java.util.Scanner;
+
+import mainPackage.controller.UsuarioController;
+import mainPackage.model.Usuario;
+
+public class Main {
+	public static void main(String[] args) {
+
+		int opcion;
+		System.out.println("Elige una opcion para continuar: ");
+		System.out.println("1. Añadir usuario a la base de datos.");
+		System.out.println("2. Mostrar usuarios de la base de datos.");
+		System.out.println("3. Editar usuarios a la base de datos.");
+		System.out.println("4. Eliminar usuarios de la base de datos.");
+		System.out.println("5. Salir");
+		
+		Scanner scanner = new Scanner(System.in);
+		opcion = scanner.nextInt();
+		UsuarioController usuarioController = new UsuarioController();
+		
+		switch (opcion) {
+		case 1:
+			System.out.println("######## AÑADE UN NUEVO USUARIO ########");
+			Usuario usuario = new Usuario();
+			
+			System.out.print("Introduce el nombre de usuario: ");
+			String username = scanner.next();
+			
+			System.out.print("Introduce la contraseña: ");
+			String password = scanner.next();
+			
+			System.out.print("Introduce el email: ");
+			String email = scanner.next();
+			
+			usuario.setUsername(username);
+			usuario.setPassword(password);
+			usuario.setEmail(email);
+			
+			usuarioController.registrar(usuario);
+			
+			break;
+
+		case 2:
+			System.out.println("######## LISTADO DE USUARIOS ########");
+			usuarioController.verUsuarios();
+			
+			break;
+			
+		case 3:
+			System.out.println("######## ACTUALIZAR USUARIO ########");
+			System.out.print("Selecciona el id del usuario que quieres editar: ");
+
+			break;
+			
+		case 4:
+			System.out.println("######## ELIMINAR USUARIO ########");
+			usuarioController.verUsuarios();
+			System.out.print("Selecciona el id del usuario que quieres eliminar: ");
+			int idUsuario = scanner.nextInt();
+			usuario.setIdUsario(idUsuario);
+
+			break;
+		
+		case 5:
+			System.out.println("######## Saliendo... ########");
+			break;
+
+		default:
+			break;
+		}
+
+		
+		
+	}
+
+}

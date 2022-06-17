@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		String entradaScanner = "";
+		
+		while (entradaScanner != "salir") {
+			System.out.println("Introduce un String [escribe salir, para salir]");
+			Scanner scanner = new Scanner(System.in);
+			entradaScanner = scanner.next();
+			System.out.println(entradaScanner);
+		}break
+		
+	}
+
+}

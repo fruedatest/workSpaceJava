@@ -1,0 +1,16 @@
+public class Main {
+	public static void main(String[] args) {
+		
+		byte byteType = (byte) 132;
+		short shortType = (short) 32792;
+		int intType = 21474836470000;
+		long longType = 92233720368547758070000000000L;
+		
+		System.out.println(byteType);
+		System.out.println(shortType);
+		System.out.println(intType);
+		System.out.println(longType);
+		
+		
+	}
+}

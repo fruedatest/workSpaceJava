@@ -1,0 +1,10 @@
+package secondPackage;
+
+public class HastaNunqui {
+
+	public String despido() {
+		
+		return "Hasta nunqui!";
+	}
+
+}

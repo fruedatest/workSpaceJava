@@ -1,0 +1,21 @@
+public class Main {
+	
+	public static String javaOrNull(String palabra) {
+		if (palabra == "java") {
+			System.out.print("java");
+		}else {
+			return null;
+		}
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		/*
+		 * APARTADO 1
+		 */
+		javaOrNull("java");
+		
+	}
+}

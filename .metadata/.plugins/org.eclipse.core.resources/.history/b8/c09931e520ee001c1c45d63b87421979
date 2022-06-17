@@ -1,0 +1,14 @@
+package mainPackage.connector;
+
+import java.sql.Connection;
+
+public class Connector {
+	
+	public static Connection conectar() {
+		Connection connection = null;
+		String user = "root";
+		String password = "admin";
+		String url = "jdbc:mysql://localhost:3306/sqlcruq?user="+user+"&password="+password;
+		
+	}
+}

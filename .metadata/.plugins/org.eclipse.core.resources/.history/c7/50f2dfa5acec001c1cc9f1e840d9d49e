@@ -1,0 +1,12 @@
+package mainPackage;
+
+public abstract class SerVivo {
+	
+	public SerVivo() {
+		
+	}
+	
+	public void alimentarse() {
+		
+	}
+}

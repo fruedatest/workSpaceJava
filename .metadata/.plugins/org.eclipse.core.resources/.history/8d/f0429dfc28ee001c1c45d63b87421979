@@ -1,0 +1,22 @@
+package mainPackage.controller;
+
+import mainPackage.dao.IUsuarioDao;
+import mainPackage.dao.UsuarioDaoImpl;
+import mainPackage.model.Usuario;
+import mainPackage.view.ViewUsuario;
+
+public class UsuarioController {
+	
+	public UsuarioController() {
+		
+	}
+	
+	private ViewUsuario viewUsuario = new ViewUsuario();
+	
+	public void registrar(Usuario usuario) {
+		
+		IUsuarioDao usuarioDao = new UsuarioDaoImpl();
+		usuarioDao.registrar(usuario);
+		
+	}
+}

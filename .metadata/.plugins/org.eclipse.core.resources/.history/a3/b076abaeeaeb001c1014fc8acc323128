@@ -1,0 +1,115 @@
+import java.util.Random;
+import java.util.Scanner;
+import java.util.stream.IntStream;
+
+public class Main {
+	public static void main(String[] args) {
+	/*
+	 * APARTADO 1	
+	 */
+		int numRandom = (int) (Math.random()*121312+3);
+		System.out.println(numRandom);
+		
+		if ((numRandom % 2) == 0) {
+			numRandom = 0;
+		}else {
+			numRandom = 1;
+		}
+	
+		System.out.println(numRandom);
+		
+		if ((numRandom == 1) == true) {
+			System.err.println("NUMERO ROJO");
+		}
+		
+		if ((numRandom == 1) == false) {
+			System.out.println("NUMERO NEGRO");
+		}
+		
+		
+		if ((numRandom == 1) == true) {
+			System.err.println("NUMERO ROJO");
+			
+		} else if((numRandom == 1) == false){
+			System.out.println("NUMERO NEGRO");
+		}
+		
+		System.out.println((numRandom != 0) ? "NUMERO ROJO" : "NUMERO NEGRO");
+		
+		
+		/*
+		 * APARTADO 2
+		 */
+		int temperatura = 0;
+		
+		if (temperatura <= 10) {
+			System.out.println("Clima Frio");
+			
+			if (temperatura <= 5) {
+				System.out.println("Clima polar");
+				
+			}else if ((temperatura <= 10) && (temperatura >= 5)) {
+				System.out.println("Alta montaña");
+				
+			}
+			
+		} else if((temperatura >= 10) && (temperatura < 20)) {
+
+			if ((temperatura >= 10) && (temperatura <= 13.5)) {
+				System.out.println("Oceánico");
+				
+			} else if((temperatura >= 13.5) && (temperatura <= 16.5)) {
+				System.out.println("Mediterráneo");
+				
+			}else if((temperatura >= 16.5) && (temperatura <= 20)) {
+				System.out.println("Continental");
+				
+			}
+
+		} else if (temperatura >= 20) {
+			
+			if ((temperatura >= 20) && (temperatura <= 23.5)) {
+				System.out.println("Ecuatorial");
+				
+			} else if((temperatura >= 23.5) && (temperatura <= 26.5)) {
+				System.out.println("Tropical");
+				
+			}else if(temperatura >= 26.5) {
+				System.out.println("Desértico");
+				
+			}
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

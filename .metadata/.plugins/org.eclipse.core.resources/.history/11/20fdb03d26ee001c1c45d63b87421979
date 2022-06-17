@@ -1,0 +1,10 @@
+package mainPackage.view;
+
+import mainPackage.model.Usuario;
+
+public class ViewUsuario {
+	public void verUsuario(Usuario usuario) {
+		System.out.println("Datos del usuario: "+usuario);
+		
+	}
+}

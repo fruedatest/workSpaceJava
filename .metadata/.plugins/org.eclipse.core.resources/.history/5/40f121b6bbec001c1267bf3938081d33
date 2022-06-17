@@ -1,0 +1,36 @@
+
+public class Car {
+	private String company;
+	private String Speed;
+	
+	public Car() {
+
+	}
+	
+	
+
+	public Car(String company, String speed) {
+
+		this.company = company;
+		Speed = speed;
+	}
+
+	public String getCompany() {
+		return company;
+	}
+
+	public void setCompany(String company) {
+		this.company = company;
+	}
+
+	public String getSpeed() {
+		return Speed;
+	}
+
+	public void setSpeed(String speed) {
+		Speed = speed;
+	}
+	
+	
+	
+}

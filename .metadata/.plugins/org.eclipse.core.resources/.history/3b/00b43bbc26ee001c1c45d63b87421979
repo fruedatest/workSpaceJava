@@ -1,0 +1,10 @@
+package mainPackage.main;
+
+import mainPackage.model.Usuario;
+
+public class Main {
+	public static void main(String[] args) {
+		Usuario usuario = new Usuario(123, "Username", "Password", "email@email.com");
+		
+	}
+}

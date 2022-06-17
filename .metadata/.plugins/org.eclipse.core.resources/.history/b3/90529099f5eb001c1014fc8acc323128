@@ -1,0 +1,30 @@
+public class Main {
+	
+	public static void javaOrNull(String palabra) {
+		if (palabra == "java") {
+			System.out.print("java");
+		}else {
+			System.out.println("null");
+		}
+		
+	}
+	
+	public static void checkLogin(String username, String password) {
+		if ((username == "admin") && (password == "1234")) {
+			System.out.println("Login true!");
+		} else {
+			System.out.println("Login false!");
+		}
+	}
+	
+	
+	public static void main(String[] args) {
+		/*
+		 * APARTADO 1
+		 */
+		javaOrNull("java");
+		
+		
+		
+	}
+}

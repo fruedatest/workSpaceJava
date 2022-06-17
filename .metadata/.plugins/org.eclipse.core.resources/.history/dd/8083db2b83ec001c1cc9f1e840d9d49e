@@ -1,0 +1,14 @@
+package secondPackage;
+
+public class HastaNunqui {
+	
+	public HastaNunqui() {
+		
+	}
+
+	public String despido() {
+		
+		return "Hasta nunqui!";
+	}
+
+}

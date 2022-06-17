@@ -1,0 +1,21 @@
+package mainPackage;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Developer developer1 = new Developer();
+		developer1.setProfesiones(Profesiones.BACK_END_DEVELOPER);
+		developer1.setNombre("Nombre1");
+		developer1.setApellidos("Apellido");
+		developer1.setEdad("34");
+		developer1.setDni("12345678X");
+		System.out.println(developer1);
+		
+		if (developer1.getProfesiones() == Profesiones.BACK_END_DEVELOPER) {
+			System.out.println("BACK_END_DEVELOPER");
+		}
+		
+	
+	}
+}

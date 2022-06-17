@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		String opcion = "";
+		Scanner scanner = new Scanner(System.in);
+		opcion = scanner.next().toLowerCase();
+
+		switch (opcion) {
+		case "federico":
+			System.out.println("1");
+			break;
+
+		default:
+			System.out.println("2");
+			break;
+		}
+	}
+
+}

@@ -1,0 +1,9 @@
+package mainPackage;
+
+public class Usuario {
+	private int idUusario;
+	private String username;
+	private String password;
+	private String email;
+	
+}

@@ -1,0 +1,9 @@
+
+public class Empleado extends Persona {
+	
+	private String tipoContrato;
+	private int sueldo;
+	
+	
+
+}

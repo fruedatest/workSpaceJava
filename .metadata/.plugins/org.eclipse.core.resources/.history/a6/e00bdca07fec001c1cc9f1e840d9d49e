@@ -1,0 +1,27 @@
+public class Main {
+	public static void main(String[] args) {
+		
+		byte byteType = (byte) 132;
+		short shortType = (short) 32792;
+		int intType = 21474836470000;
+		long longType = 92233720368547758070000000000L;
+		
+		byte byteMax = (byte) ((Byte.MAX_VALUE) + 5);
+		short shortMax = (short) ((Short.MAX_VALUE) + 25);
+		int intMax = Integer.MAX_VALUE + 10000;
+		long longMax = Long.MAX_VALUE + 20000;
+		
+		System.out.println(byteMax);
+		System.out.println(shortMax);
+		System.out.println(intMax);
+		System.out.println(longMax);
+		
+		
+		System.out.println(byteType);
+		System.out.println(shortType);
+		System.out.println(intType);
+		System.out.println(longType);
+		
+		
+	}
+}

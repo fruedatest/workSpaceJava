@@ -1,0 +1,8 @@
+package secondPackage;
+
+public class HolaMundo {
+	
+	String saludo = "Hola mundo!";
+	
+	
+}

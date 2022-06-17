@@ -1,0 +1,12 @@
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Car car01 = new Car();
+		car01.setCompany("BMW");
+		car01.setSpeed("100");
+		car01.toString();
+		System.out.println(car01);
+	}
+
+}

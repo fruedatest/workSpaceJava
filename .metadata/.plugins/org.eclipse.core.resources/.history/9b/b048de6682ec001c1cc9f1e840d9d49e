@@ -1,0 +1,11 @@
+package secondPackage;
+
+public class HastaNunqui {
+	String saludo = "Hola Mundo!";
+	
+	public String saludo() {
+		
+		return saludo;
+	}
+
+}

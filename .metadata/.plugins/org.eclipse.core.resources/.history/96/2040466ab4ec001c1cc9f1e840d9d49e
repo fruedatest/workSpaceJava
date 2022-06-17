@@ -1,0 +1,17 @@
+package mainPackage;
+
+public class Planta extends SerVivo{
+	private String especie;
+	
+	public Planta(String edad, String planeta, String especie) {
+		super(edad, planeta);
+		this.especie = especie;
+		
+	}
+	
+	public abstract String alimentarSerVivo() {
+		
+	}
+	
+
+}

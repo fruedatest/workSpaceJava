@@ -1,0 +1,9 @@
+public class Main {
+	public static void main(String[] args) {
+		
+		boolean isBoolean = true;
+		char character = 'abc';
+		
+		
+	}
+}

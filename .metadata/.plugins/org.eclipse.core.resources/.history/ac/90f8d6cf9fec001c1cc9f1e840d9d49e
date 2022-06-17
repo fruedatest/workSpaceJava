@@ -1,0 +1,7 @@
+
+public class Main {
+	public static void main(String[] args) {
+		 Tecnico tecnico = new Tecnico("nombre");
+		 System.out.println(tecnico);
+	}
+}

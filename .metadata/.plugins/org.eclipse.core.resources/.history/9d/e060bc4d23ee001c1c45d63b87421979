@@ -1,0 +1,7 @@
+package mainPackage.dao;
+import mainPackage.model.Usuario;
+
+public class IUsuarioDao {
+	
+	
+}

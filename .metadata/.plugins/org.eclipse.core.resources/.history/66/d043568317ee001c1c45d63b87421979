@@ -1,0 +1,18 @@
+package mainPackage;
+
+public class Developer {
+	
+	Profesiones profesiones;
+	String nombre;
+	String apellidos;
+	String edad;
+	String dni;
+	
+	public Developer() {
+		
+	}
+	
+	
+	
+
+}

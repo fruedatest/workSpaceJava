@@ -1,0 +1,15 @@
+package mainPackage;
+
+import secondPackage.HastaNunqui;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		HastaNunqui hastaNunqui = new HastaNunqui();
+		String despido = hastaNunqui.getDespido();
+		System.out.println(despido);
+		
+		
+	}
+
+}

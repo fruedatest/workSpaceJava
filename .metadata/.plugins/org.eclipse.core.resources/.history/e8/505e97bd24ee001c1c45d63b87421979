@@ -1,0 +1,5 @@
+package mainPackage.dao;
+
+public class UsuarioDaoImpl implements IUsuarioDao{
+
+}

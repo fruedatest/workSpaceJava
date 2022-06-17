@@ -1,0 +1,12 @@
+package mainPackage;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Developer developer1 = new Developer();
+		developer1.setProfesiones(Profesiones.BACK_END_DEVELOPER);
+		System.out.println(developer1);
+	
+	}
+}

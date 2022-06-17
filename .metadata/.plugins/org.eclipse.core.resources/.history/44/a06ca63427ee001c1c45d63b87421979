@@ -1,0 +1,13 @@
+package mainPackage.main;
+
+import mainPackage.controller.UsuarioController;
+import mainPackage.model.Usuario;
+
+public class Main {
+	public static void main(String[] args) {
+		Usuario usuario = new Usuario(123, "Username", "Password", "email@email.com");
+		UsuarioController usuarioController = new UsuarioController();
+		
+		usuarioController.registrar(usuario);
+	}
+}

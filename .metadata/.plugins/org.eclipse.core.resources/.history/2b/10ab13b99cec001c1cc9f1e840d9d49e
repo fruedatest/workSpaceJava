@@ -1,0 +1,18 @@
+
+public class Cliente extends Persona {
+	
+	private String categoria;
+	private String codigo;
+	
+	public Cliente() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Cliente(String nombre, String apellido, String documento, String tipo) {
+		super(nombre, apellido, documento, tipo);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

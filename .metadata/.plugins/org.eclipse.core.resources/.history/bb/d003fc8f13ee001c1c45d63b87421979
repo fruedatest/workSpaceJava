@@ -1,0 +1,7 @@
+
+public class NotAutorized {
+	public String notAutorized() {
+		return "Acceso no autorizado";
+	}
+
+}

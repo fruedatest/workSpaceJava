@@ -1,0 +1,9 @@
+package secondPackage;
+
+public class HastaNunqui {
+
+	public void saludo() {
+		System.out.println("Adios mundo!");
+	}
+
+}

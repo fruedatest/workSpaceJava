@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;mainPackage.SerVivo.alimentarSerVivo()&apos; to &apos;mostarSerVivo&apos;&#x0D;&#x0A;- Original project: &apos;AbstracObject&apos;&#x0D;&#x0A;- Original element: &apos;mainPackage.SerVivo.alimentarSerVivo()&apos;&#x0D;&#x0A;- Renamed element: &apos;mainPackage.SerVivo.mostarSerVivo()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;alimentarSerVivo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;mainPackage{SerVivo.java[SerVivo~alimentarSerVivo" name="mostarSerVivo" references="true" stamp="1655302088508" version="1.0"/>
+</session>

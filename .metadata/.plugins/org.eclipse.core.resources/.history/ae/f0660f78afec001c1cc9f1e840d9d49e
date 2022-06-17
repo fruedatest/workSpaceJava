@@ -1,0 +1,8 @@
+package mainPackage;
+
+public class Main extends SerVivo{
+	public static void main(String[] args) {
+		
+		SerVivo serVivo = new SerVivo();
+	}
+}

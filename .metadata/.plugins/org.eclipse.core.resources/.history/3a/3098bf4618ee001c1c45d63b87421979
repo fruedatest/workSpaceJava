@@ -1,0 +1,18 @@
+package mainPackage;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Developer developer1 = new Developer(Profesiones.BACK_END_DEVELOPER,"Nombre1", "Apellido1", "34", "12345678X");
+		Developer developer2 = new Developer(Profesiones.FULL_STACK_DEVELOPER,"Nombre1", "Apellido1", "34", "12345678X");
+		Developer developer3 = new Developer(Profesiones.FRONT_END_DEVELOPER,"Nombre1", "Apellido1", "34", "12345678X");
+
+		
+		if (developer1.getProfesiones() == Profesiones.BACK_END_DEVELOPER) {
+			System.out.println("BACK_END_DEVELOPER");
+		}
+		
+	
+	}
+}

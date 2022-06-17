@@ -1,0 +1,9 @@
+public class Programmer extends Employee{
+	
+	private int bonus;
+	private String departamento;
+	
+	
+	
+	
+}

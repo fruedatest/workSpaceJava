@@ -1,0 +1,25 @@
+package secondPackage;
+
+public class HastaNunqui {
+	
+	String despido = "Hasta nunqui!";
+	
+	public HastanNunqui() {
+		
+	}
+
+	public HastaNunqui(String despido) {
+		this.despido = despido;
+	}
+
+	public String getDespido() {
+		return despido;
+	}
+
+	public void setDespido(String despido) {
+		this.despido = despido;
+	}
+	
+	
+	
+}

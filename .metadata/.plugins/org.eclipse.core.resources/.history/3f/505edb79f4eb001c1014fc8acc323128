@@ -1,0 +1,24 @@
+import java.util.Iterator;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		/*
+		 * APARTADO 1
+		 */
+		
+		for (int i = 0; i <= 3; i++) {
+			System.out.println(i);
+		}
+		
+		/*
+		 * APARTADO 2
+		 */
+		String text = "Iteración";
+		int numero = 100;
+		
+		for (int i = 0; i < 5; i++) {
+			System.out.println(text+ " "+numero);
+		}
+	}
+}

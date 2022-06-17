@@ -1,0 +1,14 @@
+package mainPackage;
+
+public abstract class SerVivo {
+	private String nombre;
+	private String edad;
+	
+	public SerVivo() {
+		
+	}
+	
+	public void alimentarse() {
+		
+	}
+}

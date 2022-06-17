@@ -1,0 +1,53 @@
+package mainPackage.main;
+
+import java.util.Scanner;
+
+import mainPackage.controller.UsuarioController;
+import mainPackage.model.Usuario;
+
+public class Main {
+	public static void main(String[] args) {
+
+		int opcion;
+		System.out.println("Elige una opcion para continuar: ");
+		System.out.println("1. Añadir usuario a la base de datos.");
+		System.out.println("2. Mostrar usuarios de la base de datos.");
+		System.out.println("3. Insertar usuarios a la base de datos.");
+		System.out.println("4. Eliminar usuarios de la base de datos.");
+		System.out.println("5. Salir");
+		
+		Scanner scanner = new Scanner(System.in);
+		opcion = scanner.nextInt();
+
+		switch (opcion) {
+		case 1:
+
+			break;
+
+		case 2:
+
+			break;
+		case 3:
+
+			break;
+		case 4:
+
+			break;
+		
+		case 5:
+
+			break;
+
+		default:
+			break;
+		}
+
+		Usuario usuario = new Usuario(0, "Username", "Password", "email@email.com");
+		UsuarioController usuarioController = new UsuarioController();
+
+		usuarioController.registrar(usuario);
+
+		usuarioController.verUsuarios();
+	}
+
+}

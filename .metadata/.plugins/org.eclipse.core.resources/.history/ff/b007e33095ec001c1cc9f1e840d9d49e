@@ -1,0 +1,15 @@
+package object001;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Coche coche1 = new Coche(100, 120);
+		coche1.refuel(100);
+		coche1.driveCar();
+		
+		
+		
+		
+	}
+
+}

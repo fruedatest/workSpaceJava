@@ -1,0 +1,21 @@
+package main;
+
+public class Cuadrado extends Figura{
+	private double base;
+	private double altura;
+	
+	
+	
+	
+	public Cuadrado(String color) {
+		super(color);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double calcularArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

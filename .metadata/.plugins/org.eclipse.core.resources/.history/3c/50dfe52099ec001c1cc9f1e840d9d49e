@@ -1,0 +1,17 @@
+package object002;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		TarjetaBancaria tarjetaBancaria = new TarjetaBancaria();
+		tarjetaBancaria.setActive(true);
+		tarjetaBancaria.setCantidadInicial();
+		tarjetaBancaria.setTitular("Nombre Apellido1 Apellido2");
+		tarjetaBancaria.setEntidadEmisora("EntidadEmisora");
+		
+		tarjetaBancaria.pagar(100);
+		
+		System.out.println(tarjetaBancaria);
+	}
+
+}

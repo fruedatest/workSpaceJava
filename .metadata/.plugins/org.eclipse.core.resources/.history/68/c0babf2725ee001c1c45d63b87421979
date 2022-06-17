@@ -1,0 +1,41 @@
+package mainPackage.dao;
+
+import java.sql.Connection;
+import java.sql.Statement;
+import java.util.List;
+
+import mainPackage.model.Usuario;
+
+public class UsuarioDaoImpl implements IUsuarioDao{
+
+	@Override
+	public boolean registrar(Usuario usuario) {
+		boolean registrar = false;
+		
+		Statement statement = null;
+		Connection connection = null;
+		
+		String sql = "INSERT INTO `mydb`.`usuario` (`idUsuario`, `username`, `password`, `email`) VALUES ('01', 'usuario01', 'password01', 'email@email.com')";
+		
+		return false;
+	}
+
+	@Override
+	public List<Usuario> obtener() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean actualizar(Usuario usuario) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean eliminar(Usuario usuario) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
