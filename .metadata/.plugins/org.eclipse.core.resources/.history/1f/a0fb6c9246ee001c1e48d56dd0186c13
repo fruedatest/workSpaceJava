@@ -70,6 +70,7 @@ public class Main {
 			String emailUpdate = scanner.next();
 			usuarioUpdate.setEmail(emailUpdate);
 			
+			
 			usuarioController.actualizar(usuarioUpdate);
 			
 			break;

@@ -19,12 +19,12 @@ public class UsuarioDaoImpl implements IUsuarioDao{
 		Statement statement = null;
 		Connection connection = null;
 		
-		String sql = "INSERT INTO `mydb`.`usuario` VALUES (NULL,'"+usuario.getUsername()+"','"+usuario.getPassword()+"','"+usuario.getEmail()+"')";
+		String sqlQuery = "INSERT INTO `mydb`.`usuario` VALUES (NULL,'"+usuario.getUsername()+"','"+usuario.getPassword()+"','"+usuario.getEmail()+"')";
 		
 		try {
 			connection = Connector.conectar();
 			statement = connection.createStatement();
-			statement.execute(sql);
+			statement.execute(sqlQuery);
 			
 			registrar = true;
 			statement.close();
@@ -104,7 +104,7 @@ public class UsuarioDaoImpl implements IUsuarioDao{
 		Statement statement = null;
 		boolean actualizar = false;
 		
-		String sql = "UPDATE `mydb`.`usuario` SET username='"+usuario.getUsername()+"', password='"+usuario.getPassword()+"', email='"+usuario.getEmail()+"'" +" WHERE idUsuario="+usuario.getIdUusario();
+		String sql = "UPDATE `mydb`.`usuario` SET username='"+usuario.getUsername()+"', password='"+usuario.getPassword()+"', email='"+usuario.getEmail()+"'" +" WHERE ID="+usuario.getIdUusario();
 		
 		try {
 			connection = Connector.conectar();

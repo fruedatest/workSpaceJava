@@ -15,7 +15,7 @@ public class Connector {
 		Connection connection = null;
 		String user = "root";
 		String password = "admin";
-		String url = "jdbc:mysql://127.0.0.1:3306/artist?user="+user+"&password="+password;
+		String url = "jdbc:mysql://127.0.0.1:3306/artist?use="+user+"&password="+password;
 		
 		try {
 			connection = DriverManager.getConnection(url);

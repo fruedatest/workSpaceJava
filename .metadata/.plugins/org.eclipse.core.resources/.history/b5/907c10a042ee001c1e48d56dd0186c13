@@ -69,7 +69,7 @@ public class UsuarioDaoImpl implements IUsuarioDao{
 			resultSet.close();
 			
 		} catch (Exception e) {
-			System.err.println("Error al obtener lista de usuarios: "+e.toString());
+			System.out.printf("Error al obtener lista de usuarios: "+e.toString());
 		}
 		
 		return listaUsuarios;
@@ -91,7 +91,7 @@ public class UsuarioDaoImpl implements IUsuarioDao{
 			eliminar = true;
 		
 		} catch (SQLException e) {
-			System.err.println("Error al eliminar usuario: "+e.toString());
+			System.out.printf("Error al eliminar usuario: "+e.toString());
 		
 		}
 		
@@ -104,7 +104,7 @@ public class UsuarioDaoImpl implements IUsuarioDao{
 		Statement statement = null;
 		boolean actualizar = false;
 		
-		String sql = "UPDATE `mydb`.`usuario` SET username='"+usuario.getUsername()+"', password='"+usuario.getPassword()+"', email='"+usuario.getEmail()+"'" +" WHERE idUsuario="+usuario.getIdUusario();
+		String sql = "UPDATE `mydb`.`usuario` SET username='"+usuario.getUsername()+"', password='"+usuario.getPassword()+"', email='"+usuario.getEmail()+"'" +" WHERE ID="+usuario.getIdUusario();
 		
 		try {
 			connection = Connector.conectar();
@@ -113,7 +113,7 @@ public class UsuarioDaoImpl implements IUsuarioDao{
 			actualizar = true;
 			
 		} catch (Exception e) {
-			System.err.println("Error al actualizar el usuario "+e.toString());
+			System.out.printf("Error al actualizar el usuario "+e.toString());
 		}
 		
 		return actualizar;

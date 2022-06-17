@@ -104,7 +104,7 @@ public class UsuarioDaoImpl implements IUsuarioDao{
 		Statement statement = null;
 		boolean actualizar = false;
 		
-		String sql = "UPDATE `mydb`.`usuario` SET username='"+usuario.getUsername()+"', password='"+usuario.getPassword()+"', email='"+usuario.getEmail()+"'" +" WHERE idUsuario="+usuario.getIdUusario();
+		String sql = "UPDATE `mydb`.`usuario` SET username='"+usuario.getUsername()+"', password='"+usuario.getPassword()+"', email='"+usuario.getEmail()+"'" +" WHERE ID="+usuario.getIdUusario();
 		
 		try {
 			connection = Connector.conectar();

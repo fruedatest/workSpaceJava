@@ -57,19 +57,6 @@ public class Main {
 			int idUsuarioUpdate = scanner.nextInt();
 			
 			usuarioUpdate.setIdUusario(idUsuarioUpdate);
-			
-			System.out.print("Nuevo nombre del id: "+usuarioUpdate.getIdUusario());
-			String usernameUpdate = scanner.next();
-			usuarioUpdate.setUsername(usernameUpdate);
-			
-			System.out.print("Nueva password del id: "+usuarioUpdate.getIdUusario());
-			String passwordUpdate = scanner.next();
-			usuarioUpdate.setPassword(passwordUpdate);
-			
-			System.out.print("Nuevo email del id: "+usuarioUpdate.getIdUusario());
-			String emailUpdate = scanner.next();
-			usuarioUpdate.setEmail(emailUpdate);
-			
 			usuarioController.actualizar(usuarioUpdate);
 			
 			break;

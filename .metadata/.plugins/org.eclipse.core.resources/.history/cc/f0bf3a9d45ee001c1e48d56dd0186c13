@@ -24,7 +24,7 @@ public class Connector {
 			}
 			
 		} catch (SQLException e) {
-			System.err.println("Error al realizar la operación! Error: "+e.toString());
+			System.out.println("Error al realizar la operación! Error: "+e.toString());
 
 		}
 		
